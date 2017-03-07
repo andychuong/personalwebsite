@@ -22,10 +22,12 @@ body{
 }
 
 nav{
-	width:80%;
+
+	width:79%;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:.5%;
+	padding-right:1%;
 	background-color:#eeeeee;
 	overflow:auto;
 	font-size:1.25em;
@@ -58,6 +60,11 @@ aside{
 	margin:0 0 0 2.3%;
 	font-size:1.25em;
 	padding-top:0;
+}
+#portrait{
+	/*position: fixed;
+	width: 12.5%;
+	margin-top:0;*/
 }
 article{
     width: 77%;
