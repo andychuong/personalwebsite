@@ -17,6 +17,9 @@ body{
 	font-size:.9em;
 	color:#4DB8FF;
 }
+.ntharticle{
+	margin-bottom: 2%;
+}
 
 nav{
 	width:80%;
@@ -48,8 +51,6 @@ aside{
     float: left;
     overflow: auto;
     text-align: center;
-
-
 }
 #nav{
 	float:left;
@@ -60,7 +61,7 @@ aside{
 }
 article{
     width: 77%;
-    margin: 0% 2% 2% 0%;
+    margin: 0% 2% -2% 0%;
     padding-bottom:0;
     padding-top:0;
     float: right;
@@ -93,7 +94,8 @@ footer{
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
-	padding-top:.5%;
+	margin-top:0%;
+	padding-top:0%;
 	padding-bottom:.4%;
 	/*background-color:#eeeeee;*/
 	overflow:auto;
