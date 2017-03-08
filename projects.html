@@ -4,14 +4,13 @@
 
 <head>
 
-<title>Projects</title>
-
-<meta charset="utf-8">
-<link href="css/font-awesome.css" rel="stylesheet">
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-<link href="css/personal_website.css" rel="stylesheet">
-</head>
+	<title>Projects</title>
+	<meta charset="utf-8">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href="css/personal_website.css" rel="stylesheet">
+	</head>
 
 <body>
 <nav>
@@ -37,31 +36,84 @@
 <article><!--Current projects -->
 	<h2>Current Projects</h2>
 
-	<h4>Fill</h4>
+	<h4>Project Cybertron</h4>
 	<p>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam tempora quos, id hic similique impedit dolorem at sint quod tenetur ad beatae amet, commodi recusandae eum et soluta reiciendis illum.
+	This project will create a realistic model of the planet Cybertron from the Transformers series. The design will be based off of examples from the TV shows, comics, and fan art.
+	<br>
+	<br>
+	I will be 3D modeling this in Rhinocerous. I plan to 3D print this once the modling is done. After the physical fabrication is complete, the planet will be finished through smoothing and painting. 
+	</p>
+
+	<h4>Simple Racing</h4>
+	<p>
+	This will be a web based racing game developed using p5.js and sockets.io. 
+	<br>
+	<br>
+	The idea of this game is to have a few players move cars around with arrow keys. The goal is to reach the finish line at the top of the screen. To make this fun, I plan on implementing obstacles that delay the players from reaching the finish line. 
 	</p>
 </article><!--End current projects -->
 
 <article class="ntharticle"><!--Past projects-->
 	<h2>Past Projects</h2>
-
-	<h4>Robot Soccer - Python(PyGame)</h4>
-	<p>In my intro to programming class, I created a game based off the <a href="http://www.pygame.org/hifi.html" target="_blank">PyGame</a> skeleton. The objective of this game was for a robot to place a ball into the goal. There were randomly generated cones that blocked the robot’s path.
-
-	<br><br>
-	Screenshots: <a href="projects/robot_soccer_screenshot.html">Here</a>
+	<!-- WIRELESS BLIND SPOT -->
+	<h4>Wireless Blind Spot Detection</h4>
+	<p>
+	This was a semester long project for my Invention and Innovation class. I collaborated with three other students for this (Sean Connolly, Elijah Fisk, and Alex Schwartz). The goal of this project was to create an easy to install and use blind spot detection system for cars. We had an external unit that was attached to the quarter panel of your car and would detect if something was in your blindspot. We also had a unit on the inside of your car to read and interpret the data from the external sensor. This unit also display a light visual upon interpretation. The light was white if your blindspot was clear and red if there was an object. The lights also showed a rainbow effect if you weren't connected to the external sensor. 
 	<br>
-	Python Code: <a href="projects/pygame.html">Here</a> <br>
-	Full Program Files(.zip): <a href="projects/robot_soccer_pygame.zip">Download Here</a>
+	<br>
+	The base of this project was the Arduino platform and bluetooth modules. We experimented with various components for this including cheap Ebay microcontrollers, Arduino Unos, Sparkfun Redboards, Sparkfun Promicros, Ebay bluetooth modules, Sparkfun Silver bluetooth modules, xBee bluetooth modules, cheap ultrasonic sensors, and weather resistant ultrasonic sensors. In the end, we used two sets of Sparkfun Promicros and xBee bluetooth modules. For our sensing unit, we used a $15 weather resistant ultransonic sensor. For our output unit, we used a strip of RGB Neopixels to alert the user. 
+	<br>
+	<br>
+	To see images and the full write up, please go <a href="projects/blindspot.html">here.</a>
 	</p>
+	<!-- END WIRELESS BLIND SPOT -->
 
-	<h4>Train Organizer/Optimizer - C++</h4>
-	<p>For my Data Structures final project, we had a “make it yourself” project in C++. For my project, I decided to create a train organizer. For this program, the user fed a text document into it and it organized a train to fully optimize it. The optimization as based on type (liquid, gas, or solid) then amount. For liquids and gases, they couldn’t mix. For solids, they were based by cubic volume size and combined into different train carts. This program was made using the <a href="http://www.codeblocks.org/" target="_blank">Codeblocks IDE</a> with C++.
+	<!-- SOUND HELMET -->
+	<h4>Sound Detection Helmet</h4>
+	<p>
+	This is a physical computing project made with an Arduino micro controller. For this project, I used a Sparkfun <a href="https://www.sparkfun.com/products/13975" target="_blank">Redboard</a> and a Sparkfun <a href="https://www.sparkfun.com/products/12758" target="_blank">Electret Microphone Breakout</a>. The idea was to have the LED array on the mouthpiece of the helmet to change colors when you spoke. The LEDs went from red to green upon voice detection. This was done by using two seperated outputs on the Redboard. 
+	<br>
+	<br>
+	Pictures: <a href="projects/helmet.html">Here</a>
+	</p>
+	<!-- END SOUND HELMET -->
+
+	<!-- ANIMATION -->
+	<h4>3D Animated Cartoon</h4>
+	<p>This project was created in <a href="https://www.blender.org/" target="_blank">Blender</a>. It was a short samurai fight animation done for my Form(ATLS2500) class. 
 	<br><br>
-	Full Program Files(.zip) <a href="projects/train_optimizer.zip">Download Here</a>
+	<iframe src="https://player.vimeo.com/video/205941680" width="90%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</p>
+	<!-- END ANIMATION -->
 
+	<!-- MY CUCALENDAR -->
+	<h4>MyCUCalendar</h4>
+	<p>This was a user experience project designed with a few classmates in my User Centric Design(CSCI3002) class. The goal was to create a calendar that integrated schedules from our class registration portal (MyCUInfo) onto an online platform.
+	</p>
+	<!-- END MYCUCALENDAR -->
+
+	<!-- ROBOT -->
+	<h4>3D Printed Robot</h4>
+	<p>This robot was modeled in <a href="https://www.rhino3d.com/" target="_blank">Rhinoceros 3D</a> and printed on a <a href="https://www.lulzbot.com/products/lulzbot-taz-5-3d-printer" target="_blank">Lulzbot Taz 5</a>. The base of this robot was based off a Transformer’s robot mode. The head was specifically designed after an Autobot called <a href="http://tfwiki.net/wiki/Ultra_Magnus_(G1)" target="_blank"> Ultra Magnus</a>. The final printed robot was an actually articulated figure. After extensive trial and error, I ended up modeling this with all ball joints as they seemed to work the best.
+
+	<br><br>
+	Screenshots: <a href="projects/robot_screenshot.html">Here</a>
+	<br>
+	Rhino File(.3dm): <a href="projects/3d_robot.3dm">Download Here</a>
+	</p>
+	<!-- END ROBOT -->
+
+	<!-- KING -->
+	<h4>Spirited King</h4>
+	<p>This ghostly spirit was created in <a href="https://www.rhino3d.com/" target="_blank">Rhinoceros 3D</a> . It was inspired after urban artist’s graffiti. I modeled the object as one item. 
+	<br><br>
+	Screenshots: <a href="projects/ghost_screenshot.html">Here</a>
+	<br>
+	Rhino File(.3dm): <a href="projects/spirited_king.3dm">Download Here</a>
+	</p>
+	<!-- END KING -->
+
+	<!-- PHOTO MANUP -->
 	<h4>Photo Manipulator - Java</h4>
 	<p>
 	For my programing class, I created an image manipulator for jpegs. This program let you upload a photo and add a filter to it. I programmed the filters according to a matrix that I was given. This program was made using the <a href="http://www.codeblocks.org/" target="_blank">BlueJ IDE</a> with Java.
@@ -71,55 +123,27 @@
 	<br>
 	Full Program Files(.zip) <a href="projects/image_manipulation.zip">Download Here</a>
 	</p>
+	<!-- END PHOTO MANUP -->
 
-	<h4>Spirited King</h4>
-	<p>This ghostly spirit was created in <a href="https://www.rhino3d.com/" target="_blank">Rhinoceros 3D</a> . It was inspired after urban artist’s graffiti. I modeled the object as one item. 
+	<!-- TRAIN -->
+	<h4>Train Organizer/Optimizer - C++</h4>
+	<p>For my Data Structures final project, we had a “make it yourself” project in C++. For my project, I decided to create a train organizer. For this program, the user fed a text document into it and it organized a train to fully optimize it. The optimization as based on type (liquid, gas, or solid) then amount. For liquids and gases, they couldn’t mix. For solids, they were based by cubic volume size and combined into different train carts. This program was made using the <a href="http://www.codeblocks.org/" target="_blank">Codeblocks IDE</a> with C++.
 	<br><br>
-	Screenshots: <a href="projects/ghost_screenshot.html">Here</a>
-	<br>
-	Rhino File(.3dm): <a href="projects/spirited_king.3dm">Download Here</a>
+	Full Program Files(.zip) <a href="projects/train_optimizer.zip">Download Here</a>
 	</p>
+	<!-- END TRAIN -->
 
-	<h4>3D Printed Robot</h4>
-	<p>This robot was modeled in <a href="https://www.rhino3d.com/" target="_blank">Rhinoceros 3D</a> and printed on a <a href="https://www.lulzbot.com/products/lulzbot-taz-5-3d-printer" target="_blank">Lulzbot Taz 5</a>. The base of this robot was based off a Transformer’s robot mode. The head was specifically designed after an Autobot called <a href="http://tfwiki.net/wiki/Ultra_Magnus_(G1)" target="_blank"> Ultra Magnus</a>. The final printed robot was an actually articulated figure. After extensive trial and error, I ended up modeling this with all ball joints as they seemed to work the best.
+	<!-- SOCCER -->
+	<h4>Robot Soccer - Python(PyGame)</h4>
+	<p>In my intro to programming class, I created a game based off the <a href="http://www.pygame.org/hifi.html" target="_blank">PyGame</a> skeleton. The objective of this game was for a robot to place a ball into the goal. There were randomly generated cones that blocked the robot’s path.
 
 	<br><br>
-	Screenshots: <a href="projects/robot_screenshot.html">Here</a>
+	Screenshots: <a href="projects/robot_soccer_screenshot.html">Here</a>
 	<br>
-	Rhino File(.3dm): <a href="projects/3d_robot.3dm">Download Here</a>
+	Python Code: <a href="projects/pygame.html">Here</a> <br>
+	Full Program Files(.zip): <a href="projects/robot_soccer_pygame.zip">Download Here</a>
 	</p>
-
-	<h4>3D Animated Cartoon</h4>
-	<p>This project was created in <a href="https://www.blender.org/" target="_blank">Blender</a>. It was a short samurai fight animation done for my Form(ATLS2500) class. 
-	<br><br>
-	<iframe src="https://player.vimeo.com/video/205941680" width="90%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-	</p>
-
-	<h4>MyCUCalendar</h4>
-	<p>This was a user experience project designed with a few classmates in my User Centric Design(CSCI3002) class. The goal was to create a calendar that integrated schedules from our class registration portal (MyCUInfo) onto an online platform.
-	</p>
-
-	<h4>Sound Detection Helmet</h4>
-	<p>
-	This is a physical computing project made with an Arduino micro controller. For this project, I used a Sparkfun <a href="https://www.sparkfun.com/products/13975" target="_blank">Redboard</a> and a Sparkfun <a href="https://www.sparkfun.com/products/12758" target="_blank">Electret Microphone Breakout</a>. The idea was to have the LED array on the mouthpiece of the helmet to change colors when you spoke. The LEDs went from red to green upon voice detection. This was done by using two seperated outputs on the Redboard. 
-	<br>
-	<br>
-	Pictures: <a href="projects/helmet.html">Here</a>
-	</p>
-	<h4>Wireless Blind Spot Detection</h4>
-	<p>
-	This was a semester long project for my Invention and Innovation class. I collaborated with three other students for this (Sean Connolly, Elijah Fisk, and Alex Schwartz). The goal of this project was to create an easy to install and use blind spot detection system for cars. We had an external unit that was attached to the quarter panel of your car and would detect if something was in your blindspot. We also had a unit on the inside of your car to read and interpret the data from the external sensor. This unit also display a light visual upon interpretation. The light was white if your blindspot was clear and red if there was an object. The lights also showed a rainbow effect if you weren't connected to the external sensor. 
-	
-	<br>
-	<br>
-	The base of this project was the Arduino platform and bluetooth modules. We experimented with various components for this including cheap Ebay microcontrollers, Arduino Unos, Sparkfun Redboards, Sparkfun Promicros, Ebay bluetooth modules, Sparkfun Silver bluetooth modules, xBee bluetooth modules, cheap ultrasonic sensors, and weather resistant ultrasonic sensors. In the end, we used two sets of Sparkfun Promicros and xBee bluetooth modules. For our sensing unit, we used a $15 weather resistant ultransonic sensor. For our output unit, we used a strip of RGB Neopixels to alert the user. 
-	<br>
-	<br>
-	To see images and the full write up, please go <a href="projects/blindspot.html">here.</a>
-	</p>
-	<h4> </h4>
-
+	<!-- END SOCCER -->
 
 </article><!--End past projects -->
 
